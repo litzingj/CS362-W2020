@@ -29,6 +29,7 @@ random10 = boxlist[:10]
 supply = defaultdict(list, [(k, box[k]) for k in random10])
 
 # The supply always has these cards
+player_names = ["Jenny", "Lenny"];
 supply = testUtility.addSupplyDefaults(supply, nV, nC, player_names);
 
 # initialize the trash
